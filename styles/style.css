@@ -40,6 +40,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 main h2 {
   color: #2F2F2F;
@@ -117,6 +118,30 @@ footer .quote p {
   font-style: italic;
   font-weight: 500;
   line-height: 26px;
+}
+
+.images img {
+  position: absolute;
+}
+.images img:nth-child(1) {
+  left: 1356px;
+  top: 11px;
+}
+.images img:nth-child(2) {
+  left: 393px;
+  top: 13px;
+}
+.images img:nth-child(3) {
+  left: 385px;
+  top: 298px;
+}
+.images img:nth-child(4) {
+  left: 1422px;
+  top: 318px;
+}
+.images img:nth-child(5) {
+  left: 879px;
+  top: 523px;
 }
 
 * {
