@@ -1,0 +1,40 @@
+header {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+
+  h2 {
+    color: #2F2F2F;
+    font-family: 'Lora';
+    font-size: 32px;
+    font-weight: 700;
+    padding: 45px
+  }
+
+  .login {
+    padding: 45px;
+    display: flex;
+
+    img {
+      padding: 9px;
+      border: 2px solid #EAEAEA;
+      background-color: #fff;
+      border-radius: 9999px;
+      margin-right: 40px;
+    }
+
+    button {
+      padding: 10px 40px;
+      border: 2px solid #EAEAEA;
+      background-color: #fff;
+      border-radius: 9999px;
+      color: #2F2F2F;
+      font-family:'Inter';
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+
+}

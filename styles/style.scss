@@ -1,0 +1,15 @@
+// font-family: 'Inter', sans-serif;
+// font-family: 'Lora', serif;
+@import './header';
+@import './main';
+@import './footer';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F9F9F9;
+}

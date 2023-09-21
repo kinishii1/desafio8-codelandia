@@ -1,0 +1,130 @@
+header {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+header h2 {
+  color: #2F2F2F;
+  font-family: "Lora";
+  font-size: 32px;
+  font-weight: 700;
+  padding: 45px;
+}
+header .login {
+  padding: 45px;
+  display: flex;
+}
+header .login img {
+  padding: 9px;
+  border: 2px solid #EAEAEA;
+  background-color: #fff;
+  border-radius: 9999px;
+  margin-right: 40px;
+}
+header .login button {
+  padding: 10px 40px;
+  border: 2px solid #EAEAEA;
+  background-color: #fff;
+  border-radius: 9999px;
+  color: #2F2F2F;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+main {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main h2 {
+  color: #2F2F2F;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+main h1 {
+  width: 583px;
+  color: #2F2F2F;
+  text-align: center;
+  font-family: "Lora";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 80px;
+}
+main .buttons {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+main .buttons button {
+  padding: 10px;
+  width: 190px;
+  color: #F9F9F9;
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+}
+main .buttons button:first-child {
+  background-color: #6610F2;
+}
+main .buttons button:last-child {
+  color: #2F2F2F;
+  border-radius: 6px;
+  border: 2px solid #EAEAEA;
+  background: #FFF;
+}
+
+footer {
+  width: 1100px;
+  height: 240px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #F2F2F2;
+}
+footer .quote {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  justify-content: center;
+}
+footer .quote h3 {
+  border-left: 3px solid #6610F2;
+  padding-left: 10px;
+  color: #2F2F2F;
+  font-family: "Lora";
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+footer .quote p {
+  width: 400px;
+  color: #2F2F2F;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F9F9F9;
+}/*# sourceMappingURL=style.css.map */
